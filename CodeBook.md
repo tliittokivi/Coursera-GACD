@@ -22,6 +22,7 @@ The following transformations are performed to clean up the data:
 
 * There are 30 users having 6 different activities. Data is grouped by subject and activity, so there are 180 (30 * 6) rows in tidy data
 * Columns include subject, activity and any column from raw data having mean() or std(), totally 68 columns.
+* As with original data, all features in tidy data are normalized and bounded within [-1,1].
 
 Below is full list of columns. See features_info.txt from original data for feature descriptions.
 ```
